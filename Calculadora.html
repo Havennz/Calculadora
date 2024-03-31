@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="Calculadora">
+        <input id = "display" readonly>
+        <div id = "elements">
+            <button onclick="clearDisplay()" class="operator-btn">AC</button>
+            <button onclick="deleteValue()" class="operator-btn">DE</button>
+            <button onclick="inserirDisplay('.')">.</button>
+            <button onclick="inserirDisplay('/')"class="operator-btn">/</button>
+            <button onclick="inserirDisplay('7')">7</button>
+            <button onclick="inserirDisplay('8')">8</button>
+            <button onclick="inserirDisplay('9')">9</button>
+            <button onclick="inserirDisplay('*')"class="operator-btn">*</button>
+            <button onclick="inserirDisplay('4')">4</button>
+            <button onclick="inserirDisplay('5')">5</button>
+            <button onclick="inserirDisplay('6')">6</button>
+            <button onclick="inserirDisplay('-')"class="operator-btn">-</button>
+            <button onclick="inserirDisplay('1')">1</button>
+            <button onclick="inserirDisplay('2')">2</button>
+            <button onclick="inserirDisplay('3')">3</button>
+            <button onclick="inserirDisplay('+')"class="operator-btn">+</button>
+            <button onclick="inserirDisplay('00')">00</button>
+            <button onclick="inserirDisplay('0')">0</button>
+            <button class="equalButton">=</button>
+        </div>
+    </div>
+
+    <script src="calcLog.js" ></script>
+</body>
+</html>
